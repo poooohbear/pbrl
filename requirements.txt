@@ -1,11 +1,15 @@
 certifi==2023.11.17
 charset-normalizer==3.3.2
+cloudpickle==3.0.0
 contourpy==1.2.0
 cycler==0.12.1
+Farama-Notifications==0.0.4
 filelock==3.13.1
 fonttools==4.44.3
 fsspec==2023.10.0
+gymnasium==0.29.1
 idna==3.4
+importlib-metadata==6.8.0
 importlib-resources==6.1.1
 Jinja2==3.1.2
 kiwisolver==1.4.5
@@ -27,6 +31,7 @@ nvidia-nccl-cu12==2.18.1
 nvidia-nvjitlink-cu12==12.3.101
 nvidia-nvtx-cu12==12.1.105
 packaging==23.2
+-e git+ssh://git@github.com/poooohbear/pbrl.git@4db71e8279c57260aca035f3c4c6d23073a61b01#egg=pbrl
 Pillow==10.1.0
 pyparsing==3.1.1
 python-dateutil==2.8.2
